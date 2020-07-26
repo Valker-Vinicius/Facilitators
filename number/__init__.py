@@ -2,6 +2,7 @@ import re
 from re import error
 
 
+
 def fact(n1):
     f = 1
     for c in range(1, n1+1):
@@ -48,6 +49,7 @@ def reduce(num, percent, form=False):
 def coin(value):
     value = f'R${value}'
     return value.replace('.', ',')
+
 
 
 def readMoney(inputPhrase="", monetaryValue=""):

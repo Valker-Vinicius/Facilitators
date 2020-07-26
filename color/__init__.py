@@ -1,3 +1,4 @@
+
 def blue(phrase=''):
     if phrase == '':
         return '\033[34m'
